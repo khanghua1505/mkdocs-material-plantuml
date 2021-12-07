@@ -1,0 +1,10 @@
+site_name: Mkdocs Example
+nav:
+  - Home: index.md
+theme:
+  name: material
+plugins:
+  - search
+markdown_extensions:
+  - plantuml_markdown:
+      server: http://www.plantuml.com/plantuml
